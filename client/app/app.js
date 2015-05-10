@@ -13,7 +13,8 @@ angular.module('hyblabApp', [
     'ngSanitize',
     'ui.router',
     'ui.bootstrap',
-    'angular-parallax'
+    'angular-parallax',
+    'duScroll'
   ])
   .config(function($stateProvider, $urlRouterProvider, $locationProvider) {
     $urlRouterProvider
